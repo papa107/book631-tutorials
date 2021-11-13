@@ -1,9 +1,10 @@
+
 const express = require('express');
 
 const app = express();
 
 app.use('/', (req, res) => {
-    res.json({ 'message': 'Hello from Node!' });
+    res.json({ 'Congratulations': 'You have successfully launched a microservice on GAE' });
 });
 
 const port = process.env.PORT || 8080;
