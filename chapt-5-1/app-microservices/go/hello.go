@@ -25,7 +25,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	}
 
 	dictionary := make(map[string]string)
-	dictionary["Welcome to Developing Cloud Native Apps on GCP"] = "Success you have just completed the tuorial!!"
+	dictionary["Welcome to Developing Cloud Native Apps on GCP"] = "Success you have just completed the tutorial!!"
 
 	json, _ := json.Marshal(dictionary)
 
