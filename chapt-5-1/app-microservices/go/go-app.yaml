@@ -1,7 +1,3 @@
-# om namah shivay
-
-# See https://cloud.google.com/appengine/docs/flexible/go/configuring-your-app-with-app-yaml
-# and https://cloud.google.com/appengine/docs/flexible/go/reference/app-yaml for more info
 
 runtime: go
 env: flex
